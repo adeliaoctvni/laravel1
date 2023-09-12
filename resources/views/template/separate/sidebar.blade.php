@@ -79,6 +79,30 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="{{ route('Peminjaman') }}" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Peminjaman
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('Pengembalian') }}" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Pengembalian
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('Rak') }}" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Rak
+              </p>
+            </a>
+          </li>
           <!-- <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
